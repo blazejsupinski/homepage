@@ -16,7 +16,43 @@ h1, h2, h3, h4 {color:black}
 
 .sro {background-color: aquamarine; font-size: 29px;}
 
-.headerClass {font-size: 49px; background-color:  	#91c8bf;
-            text-decoration: none;}
+.headerClass {font-size: 49px; 
+              background-color:#91c8bf;
+              text-decoration: none;
+              padding-left: 600px;
+              position: sticky;
+              }
 
-h1 {font-size: 55px; color: salmon}
+h1 {font-size: 55px;
+    color: salmon;}
+
+.img_zero {width:40%;
+           height: 49;
+           float: right;
+           padding-left: 14px;}
+
+.img_one {width: 42%;
+          height:500px;
+          display: block;
+          float:left;
+          padding-right: 14px;}
+
+.img_two {width:40%;
+          height: 49;
+          float: right;
+          padding-left: 14px;}
+
+.img__three {width: 48%;
+            height: 37%;
+            float: left;
+            padding-rights: 14px;}
+
+footer {font-size: 49px; 
+        background-color:#91c8bf;
+        text-decoration: none;
+        width: 100vw;
+        display: block;
+        clear: both;
+        padding-left: 400px;}
+
+
