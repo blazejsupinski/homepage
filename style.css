@@ -1,5 +1,6 @@
 body {background-color: #bb9bdf;
-      font-size: 23px; }
+      font-size: 23px;
+}
 
 main {width: 100%;
       max-width:960px;
@@ -8,7 +9,7 @@ main {width: 100%;
       padding-left: 15px;
       padding-right: 15px;}
 
-h1, h2, h3, h4 {color:black}
+
 
 .pon {background-color: pink; font-size: 29px;}
 
@@ -16,15 +17,21 @@ h1, h2, h3, h4 {color:black}
 
 .sro {background-color: aquamarine; font-size: 29px;}
 
-.headerClass {font-size: 49px; 
+.headerClass__one {font-size: 49px; 
               background-color:#91c8bf;
               text-decoration: none;
               padding-left: 600px;
               position: sticky;
+              height: 9vh;
+              padding-top: 14px;
+              text-transform: uppercase;
+              padding-right: 20px;
               }
 
 h1 {font-size: 55px;
-    color: salmon;}
+    color: salmon;
+letter-spacing:24px;
+text-align: center;}
 
 .img_zero {width:40%;
            height: 49;
@@ -54,5 +61,22 @@ footer {font-size: 49px;
         display: block;
         clear: both;
         padding-left: 400px;}
+
+a { 
+    width: 25%;
+    text-decoration: none;
+    border-left: 9px dotted #f7c977;
+    text-align: right;
+    padding-left: 8px;
+
+    }
+.headerClass__last{
+     border-right: 9px dotted #f7c977;
+     padding-right: 8px; 
+}
+.hclass {
+      letter-spacing: 11px;
+      text-align: center;
+}
 
 
