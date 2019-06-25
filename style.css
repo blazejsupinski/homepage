@@ -1,3 +1,10 @@
+html {
+      box-sizing: border-box;
+}
+
+*, *:before, *:after {
+      box-sizing: inherit;
+}
 body {background-color: #bb9bdf;
       font-size: 23px;
 }
@@ -17,16 +24,27 @@ main {width: 100%;
 
 .sro {background-color: aquamarine; font-size: 29px;}
 
-.headerClass__one {font-size: 49px; 
+.headerClass__one {font-size: 49px;
+                   
               background-color:#91c8bf;
               text-decoration: none;
-              padding-left: 600px;
-              position: sticky;
               height: 9vh;
               padding-top: 14px;
-              text-transform: uppercase;
-              padding-right: 20px;
-              }
+              text-transform: uppercase;                      
+              min-height: 10vh;
+              width: 100vw; 
+              
+background: rgba(122,42,207,1);
+background: -moz-linear-gradient(left, rgba(122,42,207,1) 0%, rgba(84,248,130,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(122,42,207,1)), color-stop(100%, rgba(84,248,130,1)));
+background: -webkit-linear-gradient(left, rgba(122,42,207,1) 0%, rgba(84,248,130,1) 100%);
+background: -o-linear-gradient(left, rgba(122,42,207,1) 0%, rgba(84,248,130,1) 100%);
+background: -ms-linear-gradient(left, rgba(122,42,207,1) 0%, rgba(84,248,130,1) 100%);
+background: linear-gradient(to right, rgba(122,42,207,1) 0%, rgba(84,248,130,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a2acf', endColorstr='#54f882', GradientType=1 );
+       
+}
+                                      
 
 h1 {font-size: 55px;
     color: salmon;
@@ -63,20 +81,29 @@ footer {font-size: 49px;
         padding-left: 400px;}
 
 a { 
-    width: 25%;
+    
     text-decoration: none;
-    border-left: 9px dotted #f7c977;
     text-align: right;
     padding-left: 8px;
-
+    display: block;
+    color: #f7c977;
     }
 .headerClass__last{
-     border-right: 9px dotted #f7c977;
+     
      padding-right: 8px; 
 }
 .hclass {
       letter-spacing: 11px;
       text-align: center;
 }
+.ulList{
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      margin: 0;
+}
 
-
+.headerClass__two {
+      
+      
+}
