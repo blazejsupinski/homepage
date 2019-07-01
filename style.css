@@ -7,6 +7,7 @@ html {
 }
 body {background-color: #bb9bdf;
       font-size: 23px;
+      
 }
 
 main {width: 100%;
@@ -32,7 +33,9 @@ main {width: 100%;
               padding-top: 14px;
               text-transform: uppercase;                      
               min-height: 10vh;
-              width: 100vw; 
+              width: 100vw;
+              
+              
               
 background: rgba(122,42,207,1);
 background: -moz-linear-gradient(left, rgba(122,42,207,1) 0%, rgba(84,248,130,1) 100%);
@@ -86,7 +89,7 @@ a {
     text-align: right;
     padding-left: 8px;
     display: block;
-    color: #f7c977;
+    color: black;
     }
 .headerClass__last{
      
@@ -103,7 +106,19 @@ a {
       margin: 0;
 }
 
-.headerClass__two {
-      
-      
-}
+
+
+      @media (max-width: 990px) {
+           
+            .ulList {display: flex;
+                  flex-direction: column;
+                  display: none;}}
+
+            
+      @media (min-width: 990px)      {      
+      .button__hamburger {display: none;}}
+
+      .visible {
+           display:flex;
+            flex-direction: column;
+            
